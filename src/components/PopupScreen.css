@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+.popup_container {
+  position: absolute;
+  width: 98%;
+  height: 16%;
+  left: 25px;
+  background-color: #1d1d1fde;
+  text-align: right;
+  z-index: 15;
+  top: 167vh;
+
+  animation: fadeInAnimation ease 0.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+    background-color: black;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.full-opacity {
+  background-color: #1e1e259a;
+  box-shadow: 0px 0px 10px rgb(20, 20, 20);
+  color: rgb(212, 212, 212);
+  padding: 1vh;
+  text-align: center;
+  margin: 2vh 0vh;
+  font-family: 'Quicksand', sans-serif;
+}
+.close_btn {
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin: 1vh;
+  padding: 0;
+}
+.project_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  margin: 4vh;
+}
+.project_introduction {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: auto 0;
+}
+.project_introduction img {
+  width: 60vh;
+  height: auto;
+  margin: auto;
+}
+.project_desc {
+  margin: 0;
+  height: 80vh;
+  width: 80vh;
+  overflow: scroll;
+  padding: 5vh 3vh;
+  text-align: left;
+}
+.project_pics{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 2vh;
+  font-size: 1.5vh;
+}
+.project_p{
+  display: block;
+  width: 60vh;
+  margin: 5vh auto;
+  font-size: 2vh;
+
+}.project_pics img{
+  margin: auto;
+  width: 35vh;
+  height: auto;
+}
+div{
+  white-space: pre-line;
+}

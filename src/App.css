@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400&family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@600&family=Imbue:wght@300;400&display=swap");
+::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #1e1e259a;
+  height: 5%;
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-color: rgb(59, 59, 59);
+}
+html{
+  scroll-behavior: smooth;
+}
+:root {
+  position: relative;
+  background: linear-gradient(90deg, #d9ffde 0%, #c4daff 100%);
+  font-size: 1.8vh;
+  top: -25px;
+
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.App {
+  background-image: linear-gradient(#1c2835, #202529);
+  width: 94%;
+  margin: auto;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.671);
+
+  animation: fadeInAnimation ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+    background-color: black;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.main-container h2 {
+  padding-top: 5vh;
+  font-family: "Raleway", sans-serif;
+  font-size: 3vh;
+}
+.Short_desc p {
+  font-size: 5.5vh;
+  font-family: "Pacifico", cursive;
+  font-weight: 100;
+}
+.Short_desc h1 {
+  font-family: "Bodoni Moda", serif;
+  font-size: 18vh;
+}
+.about_container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 60vh;
+  padding-bottom: 40vh;
+}
+.paragraph {
+  align-content: center;
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+  margin-left: 17vh;
+  font-size: 2vh;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  width: 120vh;
+  line-height: 250%;
+  width: 85vh;
+}
+.skills {
+  position: relative;
+  text-align: right;
+  width: 80vh;
+  bottom: 10vh;
+}
+.skills img {
+  padding: 2vh;
+  width: 30%;
+  height: 30%;
+}
+
+.container {
+  width: 70%;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.192);
+  padding: 4vh;
+}
+.row {
+  margin-bottom: 5vh;
+}
+.input-field > label {
+  top: -4vh;
+}
+.email_container input,
+textarea {
+  color: rgb(218, 218, 218);
+}
+textarea.materialize-textarea,
+input[type="text"]:not(.browser-default) {
+  font-size: 2.5vh;
+  color: rgb(218, 218, 218);
+}
+.contacts_info {
+  margin: 2vh 0vh 8vh 0vh;
+  padding-top: 40vh;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.315);
+}
+.contacts_logo {
+  display: flex;
+  width: 80vh;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: auto;
+  font-size: 3vh;
+  margin-top: 5vh;
+  padding-bottom: 15vh;
+}
+.contacts_info img {
+  width: auto;
+  height: 3.5vh;
+  border-radius: 30px;
+}
+.contacts_info a {
+  width: 2vh;
+  height: auto;
+  border-radius: 30px;
+  font-family: "Raleway", sans-serif;
+  text-decoration: underline;
+  color: rgb(218, 218, 218);
+  font-size: 2.3vh;
+}
+.contacts_info a:nth-child(4) {
+  width: 17vh;
+}

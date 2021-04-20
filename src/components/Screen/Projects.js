@@ -4,8 +4,10 @@ import JS_weather_logo from "../Projects_img/JS_weather_image.png";
 import Capstone_logo from "../Projects_img/Capstone_project_image.png";
 import JS_minigame_logo from "../Projects_img/JS_minigame_image.png";
 import Instagram_logo from "../Projects_img/instagram_image.png";
+import Foodwebsite_logo from "../Projects_img/Food_website.png";
 import ToggleState from "../context/ToggleState";
 import Instagram_image from "../Projects_img/real_img/instagram_image.JPG";
+import Foodwebsite_image from "../Projects_img/real_img/Foodwebsite_image.png";
 import JS_weather_image from "../Projects_img/real_img/JS_weather_image.png";
 import Capstone_image from "../Projects_img/real_img/Capstone_project_image.jpg";
 import JS_minigame_image from "../Projects_img/real_img/JS_minigame_image.JPG";
@@ -19,14 +21,29 @@ const Portfolio_list = [
   {
     name: "MERN stack Instagram",
     logo: Instagram_logo,
-    desc: `This Web serice is designed based on instagram, I developed this 
-    application to learn communications between client, server, and 
-    database. I chose MERN stack to make development process 
-    smoother and also they have bigger community and open sources`,
+    desc: `This web service is designed based on Instagram, I developed 
+    this application to improve how to communicate and interact 
+    between client, server, and database, it has many features but I am willing to develop the app continuously. 
+    
+    I chose MERN stack to make the development process smoother and learn how to develop a full-stack web application.`,
     link: "https://instagram-clone-alexyoon.herokuapp.com/",
     used_skills: ["React", "MongoDB", "NodeJS", "ExpressJS"],
     img: Instagram_image,
     pic: [Ins_dia],
+  },
+  {
+    name: "React Online Shop",
+    logo: Foodwebsite_logo,
+    desc: `This web application focused on design aspects and user-friendly design by simplifying the context and setting up the
+    layouts to better position for enhancing the user experience and easy to read. 
+
+    The application will direct you to the shopping cart from the main page by clicking the next button, and you may continue to check out & shipping page.
+    
+    Only React JS is used and used materialize UI for several components.`,
+    link: "http://alexyoon.epizy.com",
+    used_skills: ["React"],
+    img: Foodwebsite_image,
+    pic: [],
   },
   {
     name: "Capstone Project : Robotic Vacuum Cleaner",
@@ -60,8 +77,12 @@ const Portfolio_list = [
   {
     name: "Weather App + outfit suggestions",
     logo: JS_weather_logo,
-    desc: `This is my very first web serivce for clients, it will locate the user 
-    and tell weather informations and outfit reccomendation, and more location's weather can be found by searching cities`,
+    desc: `This is my very first web service for users, it will locate the user 
+    and tell weather information and outfit recommendation, and 
+    more location's weather can be found by searching cities.
+    
+    I experienced how to deal with APIs on the server and client side, 
+    and export important data to the screen.`,
     link: "https://future-bedecked-gastonia.glitch.me/",
     used_skills: ["Javascript", "NodeJS"],
     img: JS_weather_image,
@@ -71,11 +92,12 @@ const Portfolio_list = [
   {
     name: "Vannila JS minigame",
     logo: JS_minigame_logo,
-    desc: `I developed this mini game in college by me, while developing 
-    this game I learned game design and planning skills. The game 
-    will start after user press start button and then player will get a 
-    point when line up the ball on the same row or colum and the 
-    game will  end when game board is fully-filled by balls.`,
+    desc: `I developed this mini-game in college, while developing 
+    this game I learned game design and planning skills. 
+
+    The game will start after user the press start button and then 
+    player will get a point when line up the ball on the same row or 
+    column and the game will end when the game board is fully-filled with balls.`,
     link: "https://alexyoon97.github.io/Vanila_JS_minigame/",
     used_skills: ["Javascript"],
     img: JS_minigame_image,

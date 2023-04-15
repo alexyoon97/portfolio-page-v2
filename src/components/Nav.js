@@ -10,16 +10,6 @@ const Nav = () => {
         <div className="Nav_contents">
           <Link
             activeClass="active"
-            to="ImgSlider"
-            spy={true}
-            smooth={true}
-            offset={240}
-            duration={0}
-          >
-            PROJECTS
-          </Link>
-          <Link
-            activeClass="active"
             to="About"
             spy={true}
             smooth={true}
@@ -27,6 +17,16 @@ const Nav = () => {
             duration={0}
           >
             ABOUT
+          </Link>
+          <Link
+            activeClass="active"
+            to="ImgSlider"
+            spy={true}
+            smooth={true}
+            offset={240}
+            duration={0}
+          >
+            PROJECTS
           </Link>
           <Link
             activeClass="active"

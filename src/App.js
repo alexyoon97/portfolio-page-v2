@@ -10,8 +10,8 @@ function App() {
     <div className="App">
       <Nav />
       <Main />
-      <Projects />
       <About />
+      <Projects />
       <Contacts />
     </div>
   );

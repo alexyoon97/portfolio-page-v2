@@ -1,6 +1,6 @@
 import React from "react";
 import c_sharp from "../Screen/img/c_sharp.png";
-import js from "../Screen/img/js.png";
+import js from "../Screen/img/dango-inner-2.png";
 import mongoDb from "../Screen/img/mongoDb.png";
 import mysql from "../Screen/img/mysql.png";
 import nodejs from "../Screen/img/nodejs.png";
@@ -11,58 +11,60 @@ import Flip from "react-reveal/Flip";
 const About = () => {
   return (
     <div className="about_container" id="About">
-      <div className="paragraph">
-        <div>
-          <Rotate top left >
-            I studied Computer Engineering at NAIT, my course focused learning
-            Object-Oriented Programming C#, C and C++, Web development and
-            Hardware Interfacing. I am a person that likes to interact with new
-            challenges and enjoy learning and pick up new skills to break my
-            potential.
+      <div className="paragraph_container">
+        <div className="paragraph">
+          <Rotate top left>
+            <h1>EDUCATION</h1>
+            At NAIT, I had the opportunity to study Computer Engineering, where
+            I delved into fascinating topics such as Object-Oriented
+            Programming, Web Development, Data Algorithms, and Hardware
+            Interfacing. It was an enriching experience that I'm grateful for!
           </Rotate>
         </div>
-        <br></br>
-        <div>
+        <div className="paragraph">
           <Rotate top left delay={100}>
-            I achieved a Computer Engineering Degree in 2019 and I still likes
-            to continue learn coding and design UI/UX because I feel comfortable
-            when I work with computers and I would like to challenge more stuff.
+            <h1>SKILLS</h1>
+            When it comes to web development, I'm skilled in using tech stacks
+            such as Next JS, React JS, Typescript, and Node JS and when studying
+            Data Structures and Algorithms, I use C++/C# to hone my skills.
+            Personally, I'm very passionate about programming because I enjoy
+            the challenge of finding issues and improving programs. I take
+            pleasure in thinking through the problem-solving process, and
+            there's nothing quite like the sense of satisfaction that comes with
+            finally cracking the code!
           </Rotate>
+          <div className="skills">
+            <Flip right cascade delay={50}>
+              <img alt="react" src={react} />
+            </Flip>
+            <Flip right cascade delay={450}>
+              <img alt="js" src={js} />
+            </Flip>
+            <Flip right cascade delay={750}>
+              <img alt="nodejs" src={nodejs} />
+            </Flip>
+            <Flip right cascade delay={250}>
+              <img alt="mysql" src={mysql} />
+            </Flip>
+            <Flip right cascade delay={350}>
+              <img alt="c_sharp" src={c_sharp} />
+            </Flip>
+            <Flip right cascade delay={450}>
+              <img alt="mongoDb" src={mongoDb} />
+            </Flip>
+          </div>
         </div>
-        <br></br>
-        <div>
+        <div className="paragraph">
           <Rotate top left delay={200}>
-            I look forward to discuss about any open positions or if you have
-            any questiosn about my projects you can contact me in contact form
-            down below.
+            <h1>NON-TECH SIDE</h1>
+            It's great to take a break from programming sometimes! When I'm not
+            coding, I love to engage in outdoor activities such as snowboarding,
+            tennis, rock climbing, and camping. These hobbies allow me to clear
+            my mind and create some space to recharge, which ultimately helps me
+            to refocus on development with a fresh perspective. I've found that
+            taking time away from the computer can even help me spot issues in
+            my code that I might have missed before!
           </Rotate>
-        </div>
-      </div>
-
-      <div className="skills">
-        <div className="first_row">
-          <Flip right cascade delay={50}>
-            <img alt="react" src={react} />
-          </Flip>
-          <Flip right cascade delay={450}>
-            <img alt="js" src={js} />
-          </Flip>
-          <Flip right cascade delay={750}>
-            <img alt="nodejs" src={nodejs} />
-          </Flip>
-        </div>
-        <div className="second_row">
-          <Flip right cascade  delay={250}>
-            <img alt="mysql" src={mysql} />
-          </Flip>
-          <Flip right cascade delay={350}>
-            <img alt="c_sharp" src={c_sharp} />
-          </Flip>
-        </div>
-        <div className="thrid_row">
-          <Flip right cascade delay={450}>
-            <img alt="mongoDb" src={mongoDb} />
-          </Flip>
         </div>
       </div>
     </div>

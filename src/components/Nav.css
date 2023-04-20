@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
 .Nav_Container {
-  margin: 5vh 0vh 0vh 2vh;
+  margin-left: -13vh;
+  margin-top: 5vh;
   position: fixed;
   display: flex;
   flex-direction: row;
   width: 13vh;
   font-size: 1.5vh;
-  text-align: center;
+  text-align: left;
   background-color: #2c2d2f71;
   padding: 2vh 0vh 3vh 1.5vh;
   border-radius: 20px;

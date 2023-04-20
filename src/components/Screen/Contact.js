@@ -17,7 +17,7 @@ const Contacts = () => {
     } else {
       emailjs
         .sendForm(
-          "service_h5j6ntm",
+          "service_esy72ws",
           "template_s88qqxn",
           e.target,
           "user_blbTIGlEgypuj6Kpk6iED"

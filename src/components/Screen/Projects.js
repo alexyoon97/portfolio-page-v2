@@ -1,23 +1,35 @@
 import React from "react";
 import ImgSlider from "../ImgSlider";
-import JS_weather_logo from "../Projects_img/JS_weather_image.png";
 import Capstone_logo from "../Projects_img/Capstone_project_image.png";
-import JS_minigame_logo from "../Projects_img/JS_minigame_image.png";
+import musicpicker from "../Projects_img/musicpicker.png";
+import word_typing from "../Projects_img/word_typing.png";
 import Instagram_logo from "../Projects_img/instagram_image.png";
 import Foodwebsite_logo from "../Projects_img/Food_website.png";
 import ToggleState from "../context/ToggleState";
 import Instagram_image from "../Projects_img/real_img/instagram_image.JPG";
 import Foodwebsite_image from "../Projects_img/real_img/Foodwebsite_image.png";
-import JS_weather_image from "../Projects_img/real_img/JS_weather_image.png";
 import Capstone_image from "../Projects_img/real_img/Capstone_project_image.jpg";
-import JS_minigame_image from "../Projects_img/real_img/JS_minigame_image.JPG";
 import Cap_1 from "../Projects_img/Capstone/capstone_project1.gif";
 import Cap_2 from "../Projects_img/Capstone/capstone_project2.gif";
 import Ins_dia from "../Projects_img/diagrams/instagram_dia.png";
-import Weather_dia from "../Projects_img/diagrams/weather_dia.png";
-import Minigame_dia from "../Projects_img/diagrams/minigame_dia.png";
+import musicpicker_logo from "../Projects_img/music_logo.png";
+import word_logo from "../Projects_img/word_logo.png";
 
 const Portfolio_list = [
+  {
+    name: "Open AI MusicList Generator",
+    logo: musicpicker_logo,
+    desc: `I was intrested in Open AI API, developed this application to expeirence AI system.
+    This Application will find right mood and music genre depending on your situation.
+    I have used Next JS that can handle REST API and React Front-end work and adapted Framer Motion and shad UI to improve UI/UX
+    
+    At the end it considers your choice of mood and music genre and provide you a Music and description with Youtube link.`,
+    link:'https://master.d1rarurac5vubg.amplifyapp.com/',
+    used_skills: ['Next JS', 'Open AI API', 'shadcn UI', 'Framer Motion' ],
+    img: musicpicker,
+    pic: [],
+
+  },
   {
     name: "MERN stack Instagram",
     logo: Instagram_logo,
@@ -75,34 +87,19 @@ const Portfolio_list = [
     pic: [Cap_1, Cap_2],
   },
   {
-    name: "Weather App + outfit suggestions",
-    logo: JS_weather_logo,
-    desc: `This is my very first web service for users, it will locate the user 
-    and tell weather information and outfit recommendation, and 
-    more location's weather can be found by searching cities.
+    name: "Word scrambled Typing Game",
+    logo: word_logo,
+    desc: `Word Typing game, the application will mix up the words position and player needs to type right word position,
+    player gets points every one sentence.
+    It has a number of squares depends on sentence length including space, detects input from the user.`,
     
-    I experienced how to deal with APIs on the server and client side, 
-    and export important data to the screen.`,
     link: "https://future-bedecked-gastonia.glitch.me/",
-    used_skills: ["Javascript", "NodeJS"],
-    img: JS_weather_image,
-    pic: [Weather_dia],
-  },
-
-  {
-    name: "Vannila JS minigame",
-    logo: JS_minigame_logo,
-    desc: `I developed this mini-game in college, while developing 
-    this game I learned game design and planning skills. 
-
-    The game will start after user the press start button and then 
-    player will get a point when line up the ball on the same row or 
-    column and the game will end when the game board is fully-filled with balls.`,
-    link: "https://alexyoon97.github.io/Vanila_JS_minigame/",
     used_skills: ["Javascript"],
-    img: JS_minigame_image,
-    pic: [Minigame_dia],
+    img: word_typing,
+    pic: [],
   },
+
+
 ];
 
 const Projects = () => {

@@ -23,7 +23,7 @@ const Nav = () => {
             to="ImgSlider"
             spy={true}
             smooth={true}
-            offset={240}
+            offset={250}
             duration={0}
           >
             PROJECTS
@@ -33,7 +33,7 @@ const Nav = () => {
             to="Contacts"
             spy={true}
             smooth={true}
-            offset={170}
+            offset={0}
             duration={0}
           >
             CONTACTS

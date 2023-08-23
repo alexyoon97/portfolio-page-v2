@@ -53,6 +53,7 @@ html{
   margin-top: 5vh;
   width: 1200px;
   height: 100vh;
+
 }
 .main-container h2 {
   padding-top: 5vh;
@@ -137,10 +138,10 @@ html{
   margin: auto;
   font-family: "Poppins", sans-serif;
   text-align: left;
-  font-size: 1.8vh;
+  font-size: 2vh;
   background-repeat: no-repeat;
   color: #ffffff;
-  line-height: 250%;
+  line-height: 200%;
   width: 80vh;
 }
 .paragraph{

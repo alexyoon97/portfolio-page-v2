@@ -27,6 +27,9 @@ const PopupScreen = (portfolio) => {
                   return <span className="full-opacity">{skill}</span>;
                 })}
               </div>
+              <a className="full-opacity" href={portfolio.portfolio.github}>
+                  {portfolio.portfolio.github}
+                </a>
               {portfolio.portfolio.link === "" ? (
                 <div></div>
               ) : (
@@ -34,6 +37,7 @@ const PopupScreen = (portfolio) => {
                   {portfolio.portfolio.link}
                 </a>
               )}
+
             </div>
             {portfolio.portfolio.pic.length > 0 ? (
               <div className="project_desc full-opacity scrollbar" id="style-2">

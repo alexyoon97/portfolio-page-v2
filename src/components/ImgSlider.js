@@ -32,7 +32,7 @@ function ImgSlider({ Portfolio_list }) {
   return (
     //page instructor line 20 to 25
     <div className="portfo_container" id="ImgSlider">
-      <div ref={popup_ref} style={{ position: "absolute", top: "490vh" }}></div>
+      <div ref={popup_ref} style={{ position: "absolute", top: "510vh" }}></div>
       <PopupScreen portfolio={Portfolio_list[index]} />
       {/* image slider for portfolio list */}
       <div className="index_display">

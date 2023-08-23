@@ -8,7 +8,7 @@
   background-color: #1d1d1fde;
   text-align: right;
   z-index: 15;
-  top: 490vh;
+  top: 510vh;
 
   animation: fadeInAnimation ease 0.5s;
   animation-iteration-count: 1;
@@ -75,7 +75,7 @@
 }
 .project_p{
   display: block;
-  width: 60vh;
+  width: 40vh;
   margin: 5vh auto;
   font-size: 2vh;
 
